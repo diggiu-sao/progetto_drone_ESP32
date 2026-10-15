@@ -62,3 +62,49 @@ Each experiment and firmware module is isolated in its own directory following A
 ├── 03_complementary_filter/         # Sensor fusion & 3D attitude plotter
 ├── 04_virtual_motor_mixer_pid/      # Benchtop PID & 4-motor thrust simulation
 └── flight_controller_firmware/      # Main integrated flight software (WIP)
+```
+
+---
+
+## 🚀 Getting Started (Team Setup)
+
+### 1. Prerequisites
+1. Install **[Arduino IDE 2.x](https://www.arduino.cc/en/software)** (or VS Code with PlatformIO).
+2. In Arduino IDE, go to **File → Preferences** and add the official Espressif Board Manager URL:
+   ```text
+   https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+   ```
+3. Open **Tools → Board → Boards Manager**, search for **`esp32`** by Espressif Systems, and click **Install**.
+
+### 2. Clone & Flash
+```bash
+git clone https://github.com/diggiu-sao/progetto_drone_ESP32.git
+```
+Open any sketch folder (e.g., `01_hello_esp32_blink/01_hello_esp32_blink.ino`), select **`ESP32 Dev Module`** as the board, select your USB COM port, and click **Upload**.
+
+---
+
+## 🗺️ Development Roadmap
+
+- [x] **Phase 0.1:** Repository setup, hardware procurement, and ESP32 toolchain configuration.
+- [ ] **Phase 0.2:** MPU-6050 soldering, I2C communication, and Complementary Filter implementation.
+- [ ] **Phase 0.3:** Virtual PID & Quad-X Motor Mixer simulation on Serial Plotter.
+- [ ] **Phase 0.4:** Wireless ESP-NOW communication between two ESP32 boards.
+- [ ] **Phase 1.0:** Single motor MOSFET PWM bench test & 1-axis seesaw rig stabilization.
+- [ ] **Phase 2.0:** 3D CAD frame printing, full assembly (< 250g), and tethered flight tests.
+
+---
+
+## 👥 Authors
+
+BSc in Computer and System Engineering — **Sapienza University of Rome**:
+* **Student 1** - [@github-handle](https://github.com/)
+* **Student 2** - [@github-handle](https://github.com/)
+* **Student 3** - [@github-handle](https://github.com/)
+* **Student 4** - [@github-handle](https://github.com/)
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.

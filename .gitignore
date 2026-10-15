@@ -1,68 +1,51 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
+# --- Compilazione Arduino IDE, ESP32 & C/C++ ---
 build/
 Build/
 build-*/
+.cache/
+*.bin
+*.elf
+*.map
+*.hex
+*.d
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.eep
+*.lss
+*.sym
 
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
+# --- Configurazioni locali degli IDE (VS Code / PlatformIO / Arduino) ---
+.vscode/
+.pio/
+.idea/
+*.workspace
+*.layout
 compile_commands.json
 
-# Temporary files
+# --- File temporanei e di sistema (Windows, macOS, Linux) ---
+.DS_Store
+Thumbs.db
+Desktop.ini
 *.tmp
 *.log
 *.bak
 *.swp
+*~
 
-# vcpkg
-vcpkg_installed/
+# --- Sicurezza: Password Wi-Fi e chiavi personali ---
+*secrets.h
 
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+# --- Archivio e file multimediali pesanti (vanno su Google Drive) ---
+*.zip
+*.rar
+*.7z
+*.mp4
+*.mov

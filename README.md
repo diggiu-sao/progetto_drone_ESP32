@@ -87,7 +87,7 @@ Open any sketch folder (e.g., `01_hello_esp32_blink/01_hello_esp32_blink.ino`), 
 ## 🗺️ Development Roadmap
 
 - [x] **Phase 0.1:** Repository setup, hardware procurement, and ESP32 toolchain configuration.
-- [ ] **Phase 0.2:** MPU-6050 soldering, I2C communication, and Complementary Filter implementation.
+- [X] **Phase 0.2:** MPU-6050 soldering, I2C communication, and Complementary Filter implementation.
 - [ ] **Phase 0.3:** Virtual PID & Quad-X Motor Mixer simulation on Serial Plotter.
 - [ ] **Phase 0.4:** Wireless ESP-NOW communication between two ESP32 boards.
 - [ ] **Phase 1.0:** Single motor MOSFET PWM bench test & 1-axis seesaw rig stabilization.

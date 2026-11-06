@@ -99,9 +99,9 @@ Open any sketch folder (e.g., `01_hello_esp32_blink/01_hello_esp32_blink.ino`), 
 
 BSc in Computer and System Engineering — **Sapienza University of Rome**:
 * **Student 1** - [@diggiu-sao](https://github.com/diggiu-sao)
-* **Student 2** - [@github-handle](https://github.com/)
-* **Student 3** - [@github-handle](https://github.com/)
-* **Student 4** - [@github-handle](https://github.com/)
+* **Student 2** - [@lukefdamiani](https://github.com/lukefdamiani)
+* **Student 3** - [@lorenzo-martis](https://github.com/lorenzo-martis)
+* **Student 4** - [@gatti36](https://github.com/gatti36)
 
 ---
 

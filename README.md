@@ -31,7 +31,7 @@ Key engineering modules developed in this repository:
 | **Microcontroller (MCU)** | Freenove ESP32-WROOM (Dual-Core 240MHz) | Flight Controller & Telemetry | ✅ In Lab |
 | **IMU Sensor** | GY-521 (MPU-6050 6-DOF Gyro + Accel) | Attitude & Angular Rate Sensing | ✅ In Lab |
 | **Prototyping Base** | 830 + 400 pts Breadboards & Dupont Jumpers | Bench Testing & HIL Simulation | ✅ In Lab |
-| **Actuators** | 4x Coreless Brushed Motors (8520 3.7V) + MOSFETs | Propulsion System | ⏳ Planned |
+| **Actuators** | 4x Coreless Brushed Motors (8520 3.7V) + MOSFETs | Propulsion System | ✅ In Lab |
 | **Frame** | Custom 3D-Printed Quad-X Frame | Mechanical Structure | ⏳ Planned |
 
 ---
@@ -56,12 +56,14 @@ Key engineering modules developed in this repository:
 Each experiment and firmware module is isolated in its own directory following Arduino IDE / PlatformIO conventions:
 
 ```text
-├── README.md                        # Project documentation & pinout
-├── 01_hello_esp32_blink/            # Board bring-up and serial monitor test
-├── 02_mpu6050_raw_reading/          # Raw I2C accelerometer & gyroscope data
-├── 03_complementary_filter/         # Sensor fusion & 3D attitude plotter
-├── 04_virtual_motor_mixer_pid/      # Benchtop PID & 4-motor thrust simulation
-└── flight_controller_firmware/      # Main integrated flight software (WIP)
+├── README.md                             # Project documentation & pinout
+├────── final_code (folder)               # Code that will be implemented on the drone
+     ├── 01_hello_esp32_blink/            # Board bring-up and serial monitor test
+     ├── 02_mpu6050_raw_reading/          # Raw I2C accelerometer & gyroscope data
+     ├── 03_complementary_filter/         # Sensor fusion & 3D attitude plotter
+     ├── 04_virtual_motor_mixer_pid/      # Benchtop PID & 4-motor thrust simulation
+     └── flight_controller_firmware/      # Main integrated flight software (WIP)
+├────── research (folder)                 # Experimental test codes
 ```
 
 ---
